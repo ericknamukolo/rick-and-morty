@@ -21,6 +21,7 @@ class RADCharacters with ChangeNotifier {
         name: char['name'],
         imgUrl: char['image'],
         status: char['status'],
+        gender: char['gender'],
       ));
     });
     _characters = _loaded;
